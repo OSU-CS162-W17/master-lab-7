@@ -24,7 +24,7 @@ struct person {
  * This function counts and returns the number of entries in a TSV file.  The
  * number of entries is counted as the number of non-empty lines.
  *
- * Hint: there shouldn't be a bug in this function.
+ * Hint: there shouldn't be any bugs in this function.
  */
 int count_tsv_file_entries(std::ifstream& infile) {
   std::string line;

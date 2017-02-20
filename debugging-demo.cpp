@@ -9,6 +9,10 @@
 #include <iostream>
 #include <cstdlib>
 
+/*
+ * This function computes the Fibonacci sequence up to the n'th value and
+ * stores the sequence in the provided array, which should be pre-allocated.
+ */
 void compute_fib_seq(int* fib_seq, int n) {
   int prev_fib, prev_prev_fib;
   fib_seq[0] = 1;

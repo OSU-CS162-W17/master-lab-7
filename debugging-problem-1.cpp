@@ -8,6 +8,9 @@
 #include <iostream>
 #include <cstdlib>
 
+/*
+ * This function computes and returns the factorial of a given number n.
+ */
 int factorial(int n) {
   int fact = 1;
   while (n-- > 0) {
